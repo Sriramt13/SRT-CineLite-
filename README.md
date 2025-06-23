@@ -20,3 +20,15 @@ git clone https://github.com/YOUR_USERNAME/cinelite.git
 cd cinelite
 npm install
 npm start
+
+
+
+## 📸 Screenshots
+
+
+### 🎥 Movie Detail Page
+![Movie Detail](images/WEBpage.png)
+
+
+## 📄 License
+This project is licensed under the [MIT License](./LICENSE).
