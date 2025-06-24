@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/Sriramt13/SRT-CineLite-/static/css/main.6238b88b.css",
-    "main.js": "/Sriramt13/SRT-CineLite-/static/js/main.252665c3.js",
-    "static/media/Moviebackground.jpg": "/Sriramt13/SRT-CineLite-/static/media/Moviebackground.7eefd96b315c98629348.jpg",
-    "index.html": "/Sriramt13/SRT-CineLite-/index.html",
-    "main.6238b88b.css.map": "/Sriramt13/SRT-CineLite-/static/css/main.6238b88b.css.map",
-    "main.252665c3.js.map": "/Sriramt13/SRT-CineLite-/static/js/main.252665c3.js.map"
+    "main.css": "/SRT-CineLite/static/css/main.a106ad10.css",
+    "main.js": "/SRT-CineLite/static/js/main.252665c3.js",
+    "static/media/Moviebackground.jpg": "/SRT-CineLite/static/media/Moviebackground.7eefd96b315c98629348.jpg",
+    "index.html": "/SRT-CineLite/index.html",
+    "main.a106ad10.css.map": "/SRT-CineLite/static/css/main.a106ad10.css.map",
+    "main.252665c3.js.map": "/SRT-CineLite/static/js/main.252665c3.js.map"
   },
   "entrypoints": [
-    "static/css/main.6238b88b.css",
+    "static/css/main.a106ad10.css",
     "static/js/main.252665c3.js"
   ]
 }
