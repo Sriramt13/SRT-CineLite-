@@ -40,7 +40,6 @@ function App() {
       }}
     >
       <div className="app-container">
-        <h1 className="title">TECHNOHACKS PROJECT SUBMISSION</h1>
         <h1 className="main-title">🎬 SRT CineLite</h1>
         <SearchBar onSearch={fetchMovie} />
         {error && <p style={{ color: 'red' }}>{error}</p>}

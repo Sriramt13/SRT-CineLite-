@@ -1,39 +1,25 @@
 import React, { useState } from 'react';
 
 function SearchBar({ onSearch }) {
-  const [title, setTitle] = useState('');
+  const [searchTerm, setSearchTerm] = useState('');
 
-  const handleSearch = () => {
-    if (title.trim()) {
-      onSearch(title.trim());
+  const handleSubmit = (e) => {
+    e.preventDefault(); // ⛔ Prevents page reload
+    if (searchTerm.trim() !== '') {
+      onSearch(searchTerm); // 👈 Calls the search function in App.js
     }
   };
 
   return (
-    <div style={{ marginBottom: '1rem' }}>
+    <form onSubmit={handleSubmit}>
       <input
         type="text"
-        value={title}
-        onChange={(e) => setTitle(e.target.value)}
-        placeholder="Enter movie title..."
-        style={{ padding: '0.5rem', width: '300px' }}
+        value={searchTerm}
+        onChange={(e) => setSearchTerm(e.target.value)}
+        placeholder="Search movies..."
       />
-      <button
-  onClick={handleSearch}
-  style={{
-    padding: '0.7rem 1.5rem',
-    marginLeft: '1rem',
-    backgroundColor: '#e50914',
-    color: 'white',
-    border: 'none',
-    borderRadius: '8px',
-    cursor: 'pointer'
-  }}
->
-  Search
-</button>
-
-    </div>
+      <button type="submit">Search</button>
+    </form>
   );
 }
 
